@@ -1,0 +1,22 @@
+:root {
+    /* main colors */
+    --main-bg-color: rgb(0, 0, 0);
+    --main-fg-color: rgb(255, 255, 255); 
+    --secondary-bg-color: rgb(70, 70, 70);
+    --secondary-fg-color: rgb(255, 255, 255); 
+    --navbar-bg-color: rgb(0, 0, 0);
+    --navbar-fg-color: #fff;
+    --form-bg-color: rgb(0, 0, 0);
+    --form-fg-color: #fff;
+    --highlight-color: rgb(0, 150, 150);
+
+    /* alert colors */
+    --error-fg-color: #fff;
+    --error-bg-color:rgb(75, 0, 0); 
+    --warning-fg-color: #fff;
+    --warning-bg-color:rgb(250, 200, 0); 
+    --info-fg-color: #fff;
+    --info-bg-color:rgb(0, 150, 250); 
+    --success-fg-color: #fff;
+    --success-bg-color:rgb(100, 130, 100); 
+}
