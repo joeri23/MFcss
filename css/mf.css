@@ -26,7 +26,11 @@ body {
     align-items: center;
     background-color: var(--navbar-bg-color);
     color: var(--navbar-fg-color);
-
+    top: 0;
+    width: 100%;
+}
+.navbar-fixed {
+    position: fixed;
 }
 .brand-title {
     font-size: 2rem;
@@ -446,12 +450,19 @@ hr {
    flex-direction: column;
    margin-right: 4%; 
 }
-.input, .textarea {
+input.text, .textarea {
     margin: 10px 0;
     background: var(--form-bg-color);
     border: none;
     border-bottom: 2px solid var(--highlight-color);
     color: var(--form-fg-color);
+}
+input.checkbox, input.radio {
+    display: grid;
+    grid-template-columns: min-content auto;
+    grid-gap: 0.5em;
+    font-size: 2rem;
+    color: var(--highlight-color);
 }
 
 ::-webkit-input-placeholder{

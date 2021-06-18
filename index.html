@@ -9,59 +9,78 @@
     <script src="./css/script.js" defer></script>
 </head>
 <body class="font-abel">
-    <nav class="navbar">
-        <div class="brand-title">mfCSS</div>
-        <a href="#" class="toggle-btn">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="navbar-links">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>        
-    </nav>
-
-
+  <nav class="navbar navbar-fixed">
+    <div class="brand-title">mfCSS</div>
+    <a href="#" class="toggle-btn">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="https://github.com/joeri23/MFcss">Github</a></li>
+        <li><a href="#H-tags">H-tags</a></li>
+        <li><a href="#Alerts">Alerts</a></li>
+        <li><a href="#Quotes">Quotes</a></li>
+        <li><a href="#Form">Form fields</a></li>
+        <li><a href="#Tables">Tables</a></li>
+      </ul>
+    </div>        
+  </nav>
+  
+  
+  <h1><a name="H-tags">H-tags</a></h1>
+  <div class="m-1">
     <h1>the quick brown fox shits against the fence</h1>
     <h2>the quick brown fox shits against the fence</h2>
     <h3>the quick brown fox shits against the fence</h3>
     <h4>the quick brown fox shits against the fence</h4>
     <h5>the quick brown fox shits against the fence</h5>
     <h6>the quick brown fox shits against the fence</h6>
+  </div>
+  <hr />
 
+  <h1><a name="Alerts">Alerts</a></h1>
+  <div class="m-1">
     <div class="alert">the quick brown fox shits against the fence</div>
     <div class="alert alert-error">the quick brown fox shits against the fence</div>
     <div class="alert alert-warning">the quick brown fox shits against the fence</div>
     <div class="alert alert-info">the quick brown fox shits against the fence</div>
     <div class="alert alert-success">the quick brown fox shits against the fence</div>
+  </div>
+  <hr />
 
+  <h1><a name="Quotes">Quotes</a></h1>
+  <div class="m-1">
     <div class="quote">the quick brown fox shits against the fence</div>
     <div class="quote quote-border-error">the quick brown fox shits against the fence</div>
     <div class="quote quote-border-warning">the quick brown fox shits against the fence</div>
     <div class="quote quote-border-info">the quick brown fox shits against the fence</div>
     <div class="quote quote-border-success">the quick brown fox shits against the fence</div>
+  </div>
+  <hr />
+
+  <h1><a name="Form">Form fields</a></h1>
+  <div class="m-1">
     <div class="form">
         <div class="input-fields">
-            <input type="text" class="input" placeholder="Who?">
+            <input type="text" class="text" placeholder="Who?">
             <textarea class="textarea" placeholder="tell me more"></textarea>
+            <input type="checkbox" class="checkbox">
+            <input type="radio" class="radio">
         </div>    
-    </div>
-
-    <div class="m-2">
-        <hr />
     </div>
 
     <button class="btn btn-sm">Press me</button>
     <button class="btn btn-md">Press me</button>
     <button class="btn btn-lg">Press me</button>
     <button class="btn btn-xl">Press me</button>
+  </div>
+  <hr />
 
-    <hr />
-
+  <h1><a name="Tables">tables</a></h1> 
+  <div class="m-1">
     <table class="table">
         <thead>
             <tr>
@@ -103,5 +122,6 @@
             </tr>
         </tbody>
       </table>
+    </div>
 </body>
 </html>
