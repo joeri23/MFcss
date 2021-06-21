@@ -110,15 +110,25 @@ body {
 }
 
 /* Font Classes */
-.font-abel {
-    font-family: "abel", sans-serif;
+.font-Abel {
+    font-family: "Abel", sans-serif;
 }
-.font-anton {
-    font-family: "anton", sans-serif;
+.font-Anton {
+    font-family: "Anton", sans-serif;
 }
 .font-Cabin {
     font-family: "Cabin", sans-serif;
 }
+.font-Monserrat {
+    font-family: "Monserrat", sans-serif;
+}
+.font-Muli {
+    font-family: "Muli", sans-serif;
+}
+.font-OpenSans {
+    font-family: "Open-Sans", sans-serif;
+}
+
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
